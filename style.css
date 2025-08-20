@@ -37,6 +37,7 @@ section {
 }
 
 .header-section div {
+    /* border: 1px solid black; */
     display: flex;
     width: 100%;
     align-items: center;
@@ -49,17 +50,23 @@ section {
 }
 
 .header-logo {
-    justify-content: center;
     flex: 1.5;
+    justify-content: center;
 }
 
 .links-container {
-    padding-left: 25%;
+    flex: 1;
     justify-content: center;
+}
+
+.space {
     flex: 2;
 }
 
 .header-links {
+    padding: 0 24px;
+    flex: 1;
+    text-wrap: nowrap;
     display: flex;
     gap: 48px;
 }
