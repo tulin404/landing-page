@@ -1,0 +1,62 @@
+:root {
+    --main-background-color: #003056;
+    --hero-secondary-text-color: #E5E7EB;
+    --btn-background-color: #e1e9ef;
+    --btn-text-color: #041528;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--hero-secondary-text-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+}
+
+/* HEADER */
+
+#logo-img {
+    position: relative;
+    right: 15%;
+    height: 55px;
+}
+
+.header-section div {
+    border: 1px solid black;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.header-section {
+    position: sticky;
+    background-color: var(--main-background-color);
+    justify-content: space-between;
+}
+
+.header {
+    justify-content: space-evenly;
+}
+
+.header-links {
+    position: relative;
+    left: 15%;
+    display: flex;
+    gap: 48px;
+}
