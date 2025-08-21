@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -167,4 +168,42 @@ section {
     font-weight: 900;
     color: #1F2937;
     padding-bottom: 64px;
+}
+
+/* TESTIMONIAL */
+.testimonial-section div {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+}
+
+.quote-container span {
+    align-items: end;
+}
+
+.testimonial-section {
+    background-color: var(--hero-secondary-text-color);
+    flex-direction: column;
+    align-items: center;
+    padding: 192px 0;
+}
+
+.quote-container, .quote-owner {
+    max-width: 50%;
+}
+
+.quote-container {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-owner {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
+    padding-right: 16px;
+    justify-content: end;
 }
