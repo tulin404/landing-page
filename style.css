@@ -30,7 +30,7 @@ body {
 
 section {
     display: flex;
-    padding: 16px 0 48px;
+    padding: 64px 0;
 }
 
 /* HEADER */
@@ -103,6 +103,7 @@ section {
     justify-content: space-evenly;
     background-color: var(--main-background-color);
     gap: 64px;
+    padding: 16px 0 auto;
 }
 
 .hero-text {
@@ -125,7 +126,7 @@ section {
 /* REFERENCES */
 .references-section div {
     display: flex;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
 }
 
@@ -156,11 +157,14 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 24px;
 }
 
 .ref-title {
     justify-content: center;
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding-bottom: 64px;
 }
