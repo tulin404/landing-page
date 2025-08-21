@@ -30,6 +30,7 @@ body {
 
 section {
     display: flex;
+    padding: 16px 0 48px;
 }
 
 /* HEADER */
@@ -53,11 +54,11 @@ section {
 }
 
 .links-container {
-    padding-left: 48px;
+    padding-left: 128px;
 }
 
 .header-logo {
-    padding-right: 48px;
+    padding-right: 128px;
 }
 
 .header-links {
@@ -72,7 +73,7 @@ section {
 }
 
 .hero-section img {
-    width: 500px;
+    aspect-ratio: 16 / 9;
 }
 
 .hero-section h1 {
@@ -99,12 +100,67 @@ section {
 }
 
 .hero-section {
-    padding-bottom: 48px;
     justify-content: space-evenly;
     background-color: var(--main-background-color);
+    gap: 64px;
 }
 
 .hero-text {
+    text-wrap: nowrap;
     flex-direction: column;
-    gap: 7%;
+    gap: 16px;
+    margin-left: 96px;
+}
+
+.img-container {
+    margin-right: 96px;
+}
+
+.img-container, .hero-section img {
+    justify-content: center;
+    min-width: 400px;
+    max-width: 700px;
+}
+
+/* REFERENCES */
+.references-section div {
+    display: flex;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.references-section img {
+    aspect-ratio: 1 / 1;
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.references-section p {
+    text-align: center;
+}
+
+.references-section {
+    flex-direction: column;
+    align-items: center;
+}
+
+.ref-container {
+    justify-content: space-evenly;
+    gap: 48px;
+    margin: 0 64px;
+    flex-wrap: wrap;
+}
+
+.ref-imgs {
+    max-width: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ref-title {
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
